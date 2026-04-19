@@ -100,13 +100,13 @@
     const PANEL = {
         toggle() {
             const panel = document.getElementById("accessibilityPanel");
-        const tab = document.getElementById("accessibilityTab");
+            const tab = document.getElementById("accessibilityTab");
             
-        console.log("TAB:", tab);
-        if (!panel || !tab) return;
+            console.log("TAB:", tab);
+            if (!panel || !tab) return;
 
-        panel.classList.toggle("hide");
-        tab.classList.toggle("hide");
+            panel.classList.toggle("hide");
+            tab.classList.toggle("hide");
         },
 
         fontIncrease() {
@@ -126,43 +126,43 @@
 
     window.APR_PANEL = PANEL;
 
-        // =========================
-        // awal perubahan
-        // =========================
+    // =========================
+    // awal perubahan
+    // =========================
     document.addEventListener("click", function (e) {
 
-    const panel = document.getElementById("accessibilityPanel");
-    const tab = document.getElementById("accessibilityTab");
+        const panel = document.getElementById("accessibilityPanel");
+        const tab = document.getElementById("accessibilityTab");
 
-    if (!panel || !tab) return;
+        if (!panel || !tab) return;
 
-    const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
-    if (toggleBtn) {
-        PANEL.toggle();
-        return;
-    }
+        const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
+        if (toggleBtn) {
+            PANEL.toggle();
+            return;
+        }
 
-    if (e.target.closest("[data-apr-font-increase]")) {
-        PANEL.fontIncrease();
-        return;
-    }
+        if (e.target.closest("[data-apr-font-increase]")) {
+            PANEL.fontIncrease();
+            return;
+        }
 
-    if (e.target.closest("[data-apr-font-decrease]")) {
-        PANEL.fontDecrease();
-        return;
-    }
+        if (e.target.closest("[data-apr-font-decrease]")) {
+            PANEL.fontDecrease();
+            return;
+        }
 
-    if (e.target.closest("[data-apr-contrast]")) {
-        PANEL.contrast();
-        return;
-    }
+        if (e.target.closest("[data-apr-contrast]")) {
+            PANEL.contrast();
+            return;
+        }
     
-});
-    })();
+    });
+})();
 
-        // =========================
-        // akhir perubahan
-        // =========================
+// =========================
+// akhir perubahan
+// =========================
 
 //    document.addEventListener("click", function (e) {
 //        const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
