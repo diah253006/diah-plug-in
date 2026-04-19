@@ -82,6 +82,17 @@
 .accessibility-tab:hover {
     background: #1a3fcc;
 }
+/* =========================
+   awal perubahan
+========================= */
+.diah-1303223025-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+/* =========================
+   akhir perubahan
+========================= */
 
 /* =========================
    BODY BUTTONS
