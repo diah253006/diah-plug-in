@@ -91,10 +91,6 @@
     let fontSize = 16;
 
     const PANEL = {
-        // =========================
-        // awal perubahan
-        // =========================
-
         toggle() {
             const panel = document.getElementById("accessibilityPanel");
             const tab = document.getElementById("accessibilityTab");
@@ -113,9 +109,6 @@
                 tab.style.display = "none";  // sembunyikan icon
             }
         },
-        // =========================
-        // akhir perubahan
-        // =========================
 
         fontIncrease() {
             fontSize += 2;
@@ -133,10 +126,6 @@
     };
 
     window.APR_PANEL = PANEL;
-
-    // =========================
-    // awal perubahan
-    // =========================
 
         document.addEventListener("click", function (e) {
 
@@ -166,14 +155,8 @@
                 return;
             }
         });
-
-   
-
-    // =========================
-    // akhir perubahan
-    // =========================
-
 })();
+
 (function () {
 
     const TTS = {
