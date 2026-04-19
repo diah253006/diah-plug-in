@@ -131,7 +131,7 @@
                 panel.classList.remove("hide");
                 tab.style.display = "none";  // sembunyikan icon
             }
-        }
+        },
         // =========================
         // akhir perubahan
         // =========================
