@@ -110,17 +110,17 @@
             }
         },
 
-        fontIncrease() {
+        fontIncrease: function () {
             fontSize += 2;
             document.body.style.fontSize = fontSize + "px";
         },
 
-        fontDecrease() {
+        fontDecrease: function () {
             fontSize -= 2;
             document.body.style.fontSize = fontSize + "px";
         },
 
-        contrast() {
+        contrast: function () {
             document.body.classList.toggle("high-contrast");
         }
     };
