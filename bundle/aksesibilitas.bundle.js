@@ -102,7 +102,6 @@
             const panel = document.getElementById("accessibilityPanel");
             const tab = document.getElementById("accessibilityTab");
             
-            console.log("TAB:", tab);
             if (!panel || !tab) return;
 
             panel.classList.toggle("hide");
