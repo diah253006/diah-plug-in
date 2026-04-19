@@ -54,6 +54,7 @@
         // awal perubahan
         // =============================
         panel.className = "diah-1303223025-panel hide";
+        
         //panel.className = "accessibility-panel hide";
         // =============================
         // akhir perubahan
