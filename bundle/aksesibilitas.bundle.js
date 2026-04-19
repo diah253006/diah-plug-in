@@ -146,7 +146,7 @@
     // =========================
     // awal perubahan
     // =========================
-    document.addEventListener("apr-ready", function () {
+    //document.addEventListener("apr-ready", function () {
 
         document.addEventListener("click", function (e) {
 
@@ -177,7 +177,7 @@
             }
         });
 
-    });
+    //});
 })();
 
 // =========================
