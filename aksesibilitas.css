@@ -1,7 +1,14 @@
 /* =========================
    PANEL
 ========================= */
-.accessibility-panel {
+/* =========================
+   awal perubahan
+========================= */
+.diah-1303223025-panel {
+//.accessibility-panel {
+/* =========================
+   akhir perubahan
+========================= */
     position: fixed;
     right: 0;
     top: 50%;
@@ -22,7 +29,14 @@
 }
 
 /* hidden state */
-.accessibility-panel.hide {
+/* =========================
+   awal perubahan
+========================= */
+.diah-1303223025-panel.hide {
+//.accessibility-panel.hide {
+/* =========================
+   akhir perubahan
+========================= */
     transform: translateY(-50%) translateX(120%);
     opacity: 0;
     pointer-events: none;
@@ -31,15 +45,28 @@
 /* =========================
    HEADER
 ========================= */
-.apr-header {
+/* =========================
+   awal perubahan
+========================= */
+.diah-1303223025-header {
+//.apr-header {
+/* =========================
+   akhir perubahan
+========================= */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
     font-weight: bold;
 }
-
-.apr-header button {
+/* =========================
+   awal perubahan
+========================= */
+.diah-1303223025-header button {
+//.apr-header button {
+/* =========================
+   akhir perubahan
+========================= */
     background: #2d5bff;
     color: white;
     border: none;
@@ -52,7 +79,14 @@
 /* =========================
    TAB (ICON ♿)
 ========================= */
-.accessibility-tab {
+/* =========================
+   awal perubahan
+========================= */
+.diah-1303223025-tab {
+//.accessibility-tab {
+/* =========================
+   akhir perubahan
+========================= */
     position: fixed;
     right: 0;
     top: 50%;
@@ -79,63 +113,59 @@
     transition: all 0.2s ease;
 }
 
-.accessibility-tab:hover {
+/* =========================
+   awal perubahan
+========================= */
+.diah-1303223025-tab:hover {
+//.accessibility-tab:hover {
+/* =========================
+   akhir perubahan
+========================= */
     background: #1a3fcc;
 }
 /* =========================
    awal perubahan
+========================= */
+/* =========================
+   BODY GRID
 ========================= */
 .diah-1303223025-body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
-/* =========================
-   akhir perubahan
-========================= */
-
-/* =========================
-   BODY BUTTONS
-========================= */
-.apr-body {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-}
-
-.apr-body button {
-    padding: 12px;
-    border-radius: 10px;
+.diah-1303223025-body button {
+    padding: 10px;
+    border-radius: 8px;
     border: none;
     background: #f3f3f3;
     cursor: pointer;
-
-    font-size: 13px;
+    font-size: 12px;
 
     display: flex;
     align-items: center;
     justify-content: center;
-    text-align: center;
-
-    transition: all 0.2s ease;
 }
 
-.apr-body button:hover {
+.diah-1303223025-body button:hover {
     background: #2d5bff;
     color: white;
 }
+/* =========================
+   akhir perubahan
+========================= */
 
 /* =========================
    FEATURES (OPTIONAL)
 ========================= */
 
 /* high contrast */
-.accessibility-contrast {
-    background: #000 !important;
-    color: #fff !important;
-}
+//.accessibility-contrast {
+//    background: #000 !important;
+//    color: #fff !important;
+//}
 
 /* dyslexic font */
-.accessibility-dyslexic {
-    font-family: 'OpenDyslexic', Arial, sans-serif;
-}
+//.accessibility-dyslexic {
+//    font-family: 'OpenDyslexic', Arial, sans-serif;
+//}
