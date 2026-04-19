@@ -91,15 +91,33 @@
     let fontSize = 16;
 
     const PANEL = {
+        // =========================
+        // awal perubahan
+        // =========================
         toggle() {
             const panel = document.getElementById("accessibilityPanel");
-        const tab = document.getElementById("accessibilityTab");
-            
-        if (!panel || !tab) return;
+            const tab = document.getElementById("accessibilityTab");
 
-        panel.classList.toggle("hide");
-        tab.classList.toggle("hide");
-        },
+            if (!panel || !tab) {
+                console.warn("Panel belum siap");
+                return;
+            }
+
+            panel.classList.toggle("hide");
+            tab.classList.toggle("hide");
+        }
+        // =========================
+        // awal perubahan
+        // =========================
+        //toggle() {
+        //    const panel = document.getElementById("accessibilityPanel");
+        //const tab = document.getElementById("accessibilityTab");
+            
+        //if (!panel || !tab) return;
+
+        //panel.classList.toggle("hide");
+        //tab.classList.toggle("hide");
+        //},
 
         fontIncrease() {
             fontSize += 2;
