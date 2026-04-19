@@ -96,7 +96,7 @@
 
                 <button data-apr-spacing-reset>Reset</button>
 
-                <label>Aksesibilitas</label>
+                <label>Aks</label>
                 <button data-apr-tts>🔊 Baca</button>
                 <button data-apr-tts-stop>Stop</button>
                 <button data-apr-voice>🎤 Voice</button>
