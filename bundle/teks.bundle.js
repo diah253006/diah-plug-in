@@ -94,20 +94,6 @@
         // =========================
         // awal perubahan
         // =========================
-        //toggle() {
-        //    const panel = document.getElementById("accessibilityPanel");
-        //    const tab = document.getElementById("accessibilityTab");
-
-        //    if (!panel || !tab) {
-        //        console.warn("Panel belum siap");
-        //        return;
-        //    }
-
-        //    panel.classList.toggle("hide");
-        //    //tab.classList.toggle("hide");
-
-            
-        //}
 
         toggle() {
             const panel = document.getElementById("accessibilityPanel");
@@ -126,7 +112,7 @@
                 panel.classList.remove("hide");
                 tab.style.display = "none";  // sembunyikan icon
             }
-        }
+        },
         // =========================
         // awal perubahan
         // =========================
