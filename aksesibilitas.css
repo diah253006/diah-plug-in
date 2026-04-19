@@ -4,8 +4,7 @@
 /* =========================
    awal perubahan
 ========================= */
-.diah-1303223025-panel {
-/*.accessibility-panel {*/
+/*.diah-1303223025-panel {
 /* =========================
    akhir perubahan
 ========================= */
@@ -26,6 +25,23 @@
     box-shadow: -4px 0 20px rgba(0,0,0,0.2);
 
     transition: all 0.3s ease;
+}*/
+.diah-1303223025-panel {
+    position: fixed;
+    right: 0;
+    top: 20px;              /* mulai dari atas */
+    bottom: 20px;           /* kasih batas bawah */
+    
+    width: 280px;
+    max-height: calc(100vh - 40px); /* biar muat layar */
+
+    overflow-y: auto;       /* scroll kalau kepanjangan */
+
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px 0 0 12px;
+
+    z-index: 999999;
 }
 
 /* hidden state */
