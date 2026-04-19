@@ -55,7 +55,7 @@
         // =============================
         panel.className = "diah-1303223025-panel hide";
         
-        //panel.className = "accessibility-panel hide";
+        
         // =============================
         // akhir perubahan
         // =============================
@@ -96,7 +96,7 @@
 
                 <button data-apr-spacing-reset>Reset</button>
 
-                <label>Akses</label>
+                <label>Aksesibilitas</label>
                 <button data-apr-tts>🔊 Baca</button>
                 <button data-apr-tts-stop>Stop</button>
                 <button data-apr-voice>🎤 Voice</button>
@@ -110,47 +110,8 @@
 
             </div>
         `;
-        //panel.innerHTML = `
-        //    <button data-apr-panel-toggle>✖</button>
-        //    <h5>Aksesibilitas</h5>
         
-        //    <label>Tampilan</label>
-        //    <button data-apr-images>🖼️ Gambar</button>
-        //    <button data-apr-contrast>🌗 Contrast</button>
-        //    <button data-apr-animation>⏸ Animasi</button>
-        //    <button data-apr-mono>⚫ Mono</button>
-        //    <button data-apr-cursor>🖱️ Cursor</button>
-
-        //    <label>Teks</label>
-        //    <button data-apr-font-increase>+</button>
-        //    <button data-apr-font-decrease>-</button>
-        //    <button data-apr-font="default">Default</button>
-        //    <button data-apr-font="sans">Sans</button>
-        //    <button data-apr-font="serif">Serif</button>
-        //    <button data-apr-font="dyslexic">Dyslexic</button>
-
-        //    <label>Spacing</label>
-        //    <button data-apr-line="1">1x</button>
-        //    <button data-apr-line="1.5">1.5x</button>
-        //    <button data-apr-line="2">2x</button>
-
-        //    <button data-apr-letter="0">Normal</button>
-        //    <button data-apr-letter="2">Lebar</button>
-
-        //    <button data-apr-spacing-reset>Reset</button>
-
-        //    <label>Akses</label>
-        //    <button data-apr-tts>🔊 Baca</button>
-        //    <button data-apr-tts-stop>Stop</button>
-        //    <button data-apr-voice>🎤 Voice</button>
-        //    <button data-apr-voice-stop>Stop Voice</button>
-
-        //    <button data-apr-zoom-in>Zoom +</button>
-        //    <button data-apr-zoom-out>Zoom -</button>
-        //    <button data-apr-zoom-reset>Reset Zoom</button>
-
-        //    <button data-apr-magnifier>Magnifier</button>
-        //`;
+        
         // =============================
         // akhir perubahan
         // =============================
@@ -166,7 +127,7 @@
         // awal perubahan
         // =============================
         tab.className = "diah-1303223025-tab";
-        //tab.className = "accessibility-tab";
+        
         // =============================
         // akhir perubahan
         // =============================
