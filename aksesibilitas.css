@@ -1,1 +1,130 @@
+/* =========================
+   PANEL
+========================= */
+.accessibility-panel {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
 
+    width: 280px;
+    max-height: 80vh;
+    overflow-y: auto;
+
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 12px 0 0 12px;
+
+    z-index: 999999;
+    box-shadow: -4px 0 20px rgba(0,0,0,0.2);
+
+    transition: all 0.3s ease;
+}
+
+/* hidden state */
+.accessibility-panel.hide {
+    transform: translateY(-50%) translateX(120%);
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* =========================
+   HEADER
+========================= */
+.apr-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.apr-header button {
+    background: #2d5bff;
+    color: white;
+    border: none;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+/* =========================
+   TAB (ICON ♿)
+========================= */
+.accessibility-tab {
+    position: fixed;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+
+    width: 60px;
+    height: 60px;
+
+    background: #2d5bff;
+    color: #ffffff;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 28px;
+    cursor: pointer;
+
+    z-index: 9999999;
+
+    border-radius: 12px 0 0 12px;
+    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+
+    transition: all 0.2s ease;
+}
+
+.accessibility-tab:hover {
+    background: #1a3fcc;
+}
+
+/* =========================
+   BODY BUTTONS
+========================= */
+.apr-body {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 12px;
+}
+
+.apr-body button {
+    padding: 12px;
+    border-radius: 10px;
+    border: none;
+    background: #f3f3f3;
+    cursor: pointer;
+
+    font-size: 13px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    transition: all 0.2s ease;
+}
+
+.apr-body button:hover {
+    background: #2d5bff;
+    color: white;
+}
+
+/* =========================
+   FEATURES (OPTIONAL)
+========================= */
+
+/* high contrast */
+.accessibility-contrast {
+    background: #000 !important;
+    color: #fff !important;
+}
+
+/* dyslexic font */
+.accessibility-dyslexic {
+    font-family: 'OpenDyslexic', Arial, sans-serif;
+}
