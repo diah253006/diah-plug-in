@@ -157,7 +157,7 @@
 
         contrast() {
             document.body.classList.toggle("high-contrast");
-        }
+        },
     };
 
     window.APR_PANEL = PANEL;
