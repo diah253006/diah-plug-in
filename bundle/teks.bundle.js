@@ -104,7 +104,9 @@
             }
 
             panel.classList.toggle("hide");
-            tab.classList.toggle("hide");
+            //tab.classList.toggle("hide");
+
+            
         }
         // =========================
         // awal perubahan
