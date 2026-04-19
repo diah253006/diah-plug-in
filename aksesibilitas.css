@@ -5,7 +5,7 @@
    awal perubahan
 ========================= */
 .diah-1303223025-panel {
-//.accessibility-panel {
+/*.accessibility-panel {*/
 /* =========================
    akhir perubahan
 ========================= */
@@ -33,7 +33,7 @@
    awal perubahan
 ========================= */
 .diah-1303223025-panel.hide {
-//.accessibility-panel.hide {
+/*.accessibility-panel.hide {*/
 /* =========================
    akhir perubahan
 ========================= */
@@ -49,7 +49,7 @@
    awal perubahan
 ========================= */
 .diah-1303223025-header {
-//.apr-header {
+/*.apr-header {*/
 /* =========================
    akhir perubahan
 ========================= */
@@ -63,7 +63,7 @@
    awal perubahan
 ========================= */
 .diah-1303223025-header button {
-//.apr-header button {
+/*.apr-header button {*/
 /* =========================
    akhir perubahan
 ========================= */
@@ -83,7 +83,7 @@
    awal perubahan
 ========================= */
 .diah-1303223025-tab {
-//.accessibility-tab {
+/*.accessibility-tab {*/
 /* =========================
    akhir perubahan
 ========================= */
@@ -117,7 +117,7 @@
    awal perubahan
 ========================= */
 .diah-1303223025-tab:hover {
-//.accessibility-tab:hover {
+/*.accessibility-tab:hover {*/
 /* =========================
    akhir perubahan
 ========================= */
@@ -160,12 +160,12 @@
 ========================= */
 
 /* high contrast */
-//.accessibility-contrast {
-//    background: #000 !important;
-//    color: #fff !important;
-//}
+/*.accessibility-contrast {
+    background: #000 !important;
+    color: #fff !important;
+}*/
 
 /* dyslexic font */
-//.accessibility-dyslexic {
-//    font-family: 'OpenDyslexic', Arial, sans-serif;
-//}
+/*.accessibility-dyslexic {
+    font-family: 'OpenDyslexic', Arial, sans-serif;
+}*/
