@@ -8,7 +8,7 @@
     // =============================
     const css = document.createElement("link");
     css.rel = "stylesheet";
-    css.href = "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/aksesibilitas.css";
+    css.href = "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@main/aksesibilitas.css?v=9999";
     // =============================
     // awal perubahan
     // =============================
@@ -28,11 +28,20 @@
     // =============================
     // 2. LOAD BUNDLE JS (AUTO)
     // =============================
+
+    const BASE = "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@main";
+
     const scripts = [
-        "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/bundle/tampilan.bundle.js",
-        "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/bundle/teks.bundle.js",
-        "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/bundle/aksesibilitas.bundle.js"
+        BASE + "/bundle/tampilan.bundle.js?v=9999",
+        BASE + "/bundle/teks.bundle.js?v=9999",
+        BASE + "/bundle/aksesibilitas.bundle.js?v=9999"
     ];
+    
+    //const scripts = [
+    //    "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/bundle/tampilan.bundle.js",
+    //    "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/bundle/teks.bundle.js",
+    //    "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/bundle/aksesibilitas.bundle.js"
+    //];
 
     scripts.forEach(src => {
         const s = document.createElement("script");
