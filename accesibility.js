@@ -8,7 +8,7 @@
     // =============================
     const css = document.createElement("link");
     css.rel = "stylesheet";
-    css.href = "https://cdn.jsdelivr.net/gh/VCTryo0304/aksesibilitas-plugin-1303223025@latest/aksesibilitas.css";
+    css.href = "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/aksesibilitas.css";
     // =============================
     // awal perubahan
     // =============================
@@ -29,9 +29,9 @@
     // 2. LOAD BUNDLE JS (AUTO)
     // =============================
     const scripts = [
-        "https://cdn.jsdelivr.net/gh/VCTryo0304/aksesibilitas-plugin-1303223025@latest/bundle/tampilan.bundle.js",
-        "https://cdn.jsdelivr.net/gh/VCTryo0304/aksesibilitas-plugin-1303223025@latest/bundle/teks.bundle.js",
-        "https://cdn.jsdelivr.net/gh/VCTryo0304/aksesibilitas-plugin-1303223025@latest/bundle/aksesibilitas.bundle.js"
+        "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/bundle/tampilan.bundle.js",
+        "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/bundle/teks.bundle.js",
+        "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/bundle/aksesibilitas.bundle.js"
     ];
 
     scripts.forEach(src => {
