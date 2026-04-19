@@ -94,19 +94,38 @@
         // =========================
         // awal perubahan
         // =========================
+        //toggle() {
+        //    const panel = document.getElementById("accessibilityPanel");
+        //    const tab = document.getElementById("accessibilityTab");
+
+        //    if (!panel || !tab) {
+        //        console.warn("Panel belum siap");
+        //        return;
+        //    }
+
+        //    panel.classList.toggle("hide");
+        //    //tab.classList.toggle("hide");
+
+            
+        //}
+
         toggle() {
             const panel = document.getElementById("accessibilityPanel");
             const tab = document.getElementById("accessibilityTab");
 
-            if (!panel || !tab) {
-                console.warn("Panel belum siap");
-                return;
+            if (!panel || !tab) return;
+
+            const isOpen = !panel.classList.contains("hide");
+
+            if (isOpen) {
+                // Tutup panel
+                panel.classList.add("hide");
+                tab.style.display = "flex";  // tampilkan icon
+            } else {
+                // Buka panel
+                panel.classList.remove("hide");
+                tab.style.display = "none";  // sembunyikan icon
             }
-
-            panel.classList.toggle("hide");
-            //tab.classList.toggle("hide");
-
-            
         }
         // =========================
         // awal perubahan
