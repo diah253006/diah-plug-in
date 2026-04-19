@@ -129,34 +129,37 @@
     // =========================
     // awal perubahan
     // =========================
-    document.addEventListener("click", function (e) {
+    document.addEventListener("apr-ready", function () {
 
-        const panel = document.getElementById("accessibilityPanel");
-        const tab = document.getElementById("accessibilityTab");
+        document.addEventListener("click", function (e) {
 
-        if (!panel || !tab) return;
+            const panel = document.getElementById("accessibilityPanel");
+            const tab = document.getElementById("accessibilityTab");
 
-        const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
-        if (toggleBtn) {
-            PANEL.toggle();
-            return;
-        }
+            if (!panel || !tab) return;
 
-        if (e.target.closest("[data-apr-font-increase]")) {
-            PANEL.fontIncrease();
-            return;
-        }
+            const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
+            if (toggleBtn) {
+                PANEL.toggle();
+                return;
+            }
 
-        if (e.target.closest("[data-apr-font-decrease]")) {
-            PANEL.fontDecrease();
-            return;
-        }
+            if (e.target.closest("[data-apr-font-increase]")) {
+                PANEL.fontIncrease();
+                return;
+            }
 
-        if (e.target.closest("[data-apr-contrast]")) {
-            PANEL.contrast();
-            return;
-        }
-    
+            if (e.target.closest("[data-apr-font-decrease]")) {
+                PANEL.fontDecrease();
+                return;
+            }
+
+            if (e.target.closest("[data-apr-contrast]")) {
+                PANEL.contrast();
+                return;
+            }
+        });
+
     });
 })();
 
