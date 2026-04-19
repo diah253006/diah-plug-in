@@ -1,31 +1,4 @@
-/* =========================
-   PANEL
-========================= */
-/* =========================
-   awal perubahan
-========================= */
-/*.diah-1303223025-panel {
-/* =========================
-   akhir perubahan
-========================= */
-    position: fixed;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-
-    width: 280px;
-    max-height: 80vh;
-    overflow-y: auto;
-
-    background: #ffffff;
-    padding: 15px;
-    border-radius: 12px 0 0 12px;
-
-    z-index: 999999;
-    box-shadow: -4px 0 20px rgba(0,0,0,0.2);
-
-    transition: all 0.3s ease;
-}*/
+/* PANEL */
 .diah-1303223025-panel {
     position: fixed;
     right: 0;
@@ -47,44 +20,22 @@
 }
 
 /* hidden state */
-/* =========================
-   awal perubahan
-========================= */
 .diah-1303223025-panel.hide {
-/*.accessibility-panel.hide {*/
-/* =========================
-   akhir perubahan
-========================= */
     transform: translateY(-50%) translateX(120%);
     opacity: 0;
     pointer-events: none;
 }
 
-/* =========================
-   HEADER
-========================= */
-/* =========================
-   awal perubahan
-========================= */
+/* HEADER */
 .diah-1303223025-header {
-/*.apr-header {*/
-/* =========================
-   akhir perubahan
-========================= */
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 15px;
     font-weight: bold;
 }
-/* =========================
-   awal perubahan
-========================= */
+
 .diah-1303223025-header button {
-/*.apr-header button {*/
-/* =========================
-   akhir perubahan
-========================= */
     background: #2d5bff;
     color: white;
     border: none;
@@ -94,17 +45,8 @@
     cursor: pointer;
 }
 
-/* =========================
-   TAB (ICON ♿)
-========================= */
-/* =========================
-   awal perubahan
-========================= */
+/* TAB (ICON ♿) */
 .diah-1303223025-tab {
-/*.accessibility-tab {*/
-/* =========================
-   akhir perubahan
-========================= */
     position: fixed;
     right: 0;
     top: 50%;
@@ -131,27 +73,17 @@
     transition: all 0.2s ease;
 }
 
-/* =========================
-   awal perubahan
-========================= */
 .diah-1303223025-tab:hover {
-/*.accessibility-tab:hover {*/
-/* =========================
-   akhir perubahan
-========================= */
     background: #1a3fcc;
 }
-/* =========================
-   awal perubahan
-========================= */
-/* =========================
-   BODY GRID
-========================= */
+
+/* BODY GRID */
 .diah-1303223025-body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
+
 .diah-1303223025-body button {
     padding: 10px;
     border-radius: 8px;
@@ -169,21 +101,3 @@
     background: #2d5bff;
     color: white;
 }
-/* =========================
-   akhir perubahan
-========================= */
-
-/* =========================
-   FEATURES (OPTIONAL)
-========================= */
-
-/* high contrast */
-/*.accessibility-contrast {
-    background: #000 !important;
-    color: #fff !important;
-}*/
-
-/* dyslexic font */
-/*.accessibility-dyslexic {
-    font-family: 'OpenDyslexic', Arial, sans-serif;
-}*/
