@@ -174,6 +174,7 @@
         tab.innerHTML = `♿`;
 
         document.body.appendChild(tab);
+        document.dispatchEvent(new Event("apr-ready"));
     }
     // =============================
     // awal perubahan
