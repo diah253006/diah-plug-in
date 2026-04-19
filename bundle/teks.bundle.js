@@ -122,7 +122,38 @@
     // =========================
     // awal perubahan
     // =========================
+    document.addEventListener("apr-ready", function () {
 
+        document.addEventListener("click", function (e) {
+
+            const panel = document.getElementById("accessibilityPanel");
+            const tab = document.getElementById("accessibilityTab");
+
+            if (!panel || !tab) return;
+
+            const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
+            if (toggleBtn) {
+                PANEL.toggle();
+                return;
+            }
+
+            if (e.target.closest("[data-apr-font-increase]")) {
+                PANEL.fontIncrease();
+                return;
+            }
+
+            if (e.target.closest("[data-apr-font-decrease]")) {
+                PANEL.fontDecrease();
+                return;
+            }
+
+            if (e.target.closest("[data-apr-contrast]")) {
+                PANEL.contrast();
+                return;
+            }
+        });
+
+    });
 
     // =========================
     // akhir perubahan
