@@ -119,28 +119,37 @@
 
     window.APR_PANEL = PANEL;
 
-    document.addEventListener("click", function (e) {
-        const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
-        if (toggleBtn) {
-            PANEL.toggle();
-            return;
-        }
+    // =========================
+    // awal perubahan
+    // =========================
 
-        if (e.target.closest("[data-apr-font-increase]")) {
-            PANEL.fontIncrease();
-            return;
-        }
 
-        if (e.target.closest("[data-apr-font-decrease]")) {
-            PANEL.fontDecrease();
-            return;
-        }
+    // =========================
+    // akhir perubahan
+    // =========================
 
-        if (e.target.closest("[data-apr-contrast-toggle]")) {
-            PANEL.contrast();
-            return;
-        }
-    });
+    //document.addEventListener("click", function (e) {
+    //    const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
+    //    if (toggleBtn) {
+    //        PANEL.toggle();
+    //        return;
+    //    }
+
+    //    if (e.target.closest("[data-apr-font-increase]")) {
+    //        PANEL.fontIncrease();
+    //        return;
+    //    }
+
+    //    if (e.target.closest("[data-apr-font-decrease]")) {
+    //        PANEL.fontDecrease();
+    //        return;
+    //    }
+
+    //    if (e.target.closest("[data-apr-contrast-toggle]")) {
+    //        PANEL.contrast();
+    //        return;
+    //    }
+    //});
 
 })();
 (function () {
