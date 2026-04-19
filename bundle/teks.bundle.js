@@ -114,7 +114,7 @@
             }
         },
         // =========================
-        // awal perubahan
+        // akhir perubahan
         // =========================
 
         fontIncrease() {
