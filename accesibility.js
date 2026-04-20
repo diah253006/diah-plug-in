@@ -12,10 +12,16 @@
     // =============================
     // awal perubahan
     // =============================
-        css.onload = () => {
-        console.log("CSS LOADED");
+    //    css.onload = () => {
+    //    console.log("CSS LOADED");
+    //    injectPanel();
+    //};
+
+    if (document.readyState === "loading") {
+        document.addEventListener("DOMContentLoaded", injectPanel);
+    } else {
         injectPanel();
-    };
+    }
 
     css.onerror = () => {
         console.error("CSS FAILED LOAD");
@@ -147,7 +153,11 @@
 
         //document.body.appendChild(tab);
         document.documentElement.appendChild(tab);
-        document.dispatchEvent(new Event("apr-ready"));
+        //document.dispatchEvent(new Event("apr-ready"));
+
+        requestAnimationFrame(() => {
+            document.dispatchEvent(new Event("apr-ready"));
+        });
     }
     // =============================
     // awal perubahan
