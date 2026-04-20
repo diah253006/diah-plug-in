@@ -8,7 +8,7 @@
     // =============================
     const css = document.createElement("link");
     css.rel = "stylesheet";
-    css.href = "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@main/aksesibilitas.css?v=9999";
+    css.href = "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest/aksesibilitas.css?v=9999";
     // =============================
     // awal perubahan
     // =============================
@@ -29,7 +29,7 @@
     // 2. LOAD BUNDLE JS (AUTO)
     // =============================
 
-    const BASE = "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@main";
+    const BASE = "https://cdn.jsdelivr.net/gh/diah253006/diah-plug-in@latest";
 
     const scripts = [
         BASE + "/bundle/tampilan.bundle.js?v=9999",
