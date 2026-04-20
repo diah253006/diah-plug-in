@@ -155,6 +155,11 @@
         //document.documentElement.appendChild(tab);
         //document.dispatchEvent(new Event("apr-ready"));
 
+        tab.addEventListener("click", function (e) {
+            e.stopPropagation();
+            panel.classList.toggle("hide");
+        });
+
         requestAnimationFrame(() => {
             document.dispatchEvent(new Event("apr-ready"));
         });
