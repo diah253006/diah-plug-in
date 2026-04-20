@@ -127,6 +127,8 @@
 
     window.APR_PANEL = PANEL;
 
+    document.addEventListener("apr-ready", function () {
+
         document.addEventListener("click", function (e) {
 
             const panel = document.getElementById("accessibilityPanel");
@@ -154,7 +156,11 @@
                 PANEL.contrast();
                 return;
             }
+
         });
+
+    });
+
 })();
 
 ;(function () {
