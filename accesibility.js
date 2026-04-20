@@ -131,8 +131,8 @@
         // akhir perubahan
         // =============================
 
-        //document.body.appendChild(panel);
-        document.documentElement.appendChild(panel);
+        document.body.appendChild(panel);
+        //document.documentElement.appendChild(panel);
 
         // =============================
         // TAB
@@ -151,8 +151,8 @@
 
         tab.innerHTML = `♿`;
 
-        //document.body.appendChild(tab);
-        document.documentElement.appendChild(tab);
+        document.body.appendChild(tab);
+        //document.documentElement.appendChild(tab);
         //document.dispatchEvent(new Event("apr-ready"));
 
         requestAnimationFrame(() => {
