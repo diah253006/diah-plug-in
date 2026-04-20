@@ -65,7 +65,7 @@
     font-size: 28px;
     cursor: pointer;
 
-    z-index: 9999999;
+    z-index: 999999;
 
     border-radius: 12px 0 0 12px;
     box-shadow: -2px 0 10px rgba(0,0,0,0.2);
