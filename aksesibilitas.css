@@ -48,15 +48,15 @@
 /* TAB (ICON ♿) */
 .diah-1303223025-tab {
     position: fixed;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
+
+    bottom: 20px;
+    right: 20px;
 
     width: 60px;
     height: 60px;
 
     background: #2d5bff;
-    color: #ffffff;
+    color: white;
 
     display: flex;
     align-items: center;
@@ -65,12 +65,12 @@
     font-size: 28px;
     cursor: pointer;
 
-    z-index: 999999;
+    z-index: 999999999;
 
-    border-radius: 12px 0 0 12px;
-    box-shadow: -2px 0 10px rgba(0,0,0,0.2);
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 
-    transition: all 0.2s ease;
+    pointer-events: auto;
 }
 
 .diah-1303223025-tab:hover {
