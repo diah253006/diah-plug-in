@@ -132,7 +132,7 @@
             const panel = document.getElementById("accessibilityPanel");
             const tab = document.getElementById("accessibilityTab");
 
-            if (!panel && !tab) return;
+            if (!panel || !tab) return;
 
             const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
             if (toggleBtn) {
