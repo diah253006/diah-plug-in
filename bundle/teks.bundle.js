@@ -1,4 +1,4 @@
-;(function () {
+(function () {
 
     const ARIA = {
 
@@ -86,7 +86,7 @@
     });
 
 })();
-;(function () {
+(function () {
 
     let fontSize = 16;
 
@@ -163,7 +163,7 @@
 
 })();
 
-;(function () {
+(function () {
 
     const TTS = {
         speech: null,
@@ -249,7 +249,7 @@ TTS.start(target);
 });
 
 })();
-;(function () {
+(function () {
 
     let recognition = null;
     let isListening = false;
@@ -387,7 +387,7 @@ TTS.start(target);
     });
 
 })();
-;(function () {
+(function () {
 
     let zoomLevel = 1;
 
@@ -467,7 +467,7 @@ TTS.start(target);
     });
 
 })();
-;(function () {
+(function () {
 
     let active = false;
     let lens = null;
