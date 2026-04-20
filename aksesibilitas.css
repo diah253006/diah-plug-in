@@ -47,7 +47,7 @@
 
 /* TAB (ICON ♿) */
 .diah-1303223025-tab {
-    position: fixed !important;
+    position: fixed;
 
     bottom: 20px !important;
     right: 20px !important;
@@ -67,7 +67,7 @@
     font-size: 28px;
     cursor: pointer;
 
-    z-index: 2147483647 !important;
+    z-index: 2147483647;
 
     border-radius: 12px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.3);
