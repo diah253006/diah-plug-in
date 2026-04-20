@@ -105,6 +105,6 @@
 }
 
 /* fallback icon kalau innerHTML gagal */
-.diah-1303223025-tab::before {
-    content: "♿";
-}
+/*.diah-1303223025-tab::before {*/
+/*    content: "♿";*/
+/*}*/
