@@ -97,7 +97,7 @@
 
     let fontSize = 16;
 
-    const PANEL = {
+    //const PANEL = {
         // =========================
         // awal perubahan
         // =========================
@@ -114,24 +114,24 @@
         //    //tab.classList.toggle("hide");
         //},
 
-        toggle() {
-            const panel = document.getElementById("accessibilityPanel");
-            const tab = document.getElementById("accessibilityTab");
+        //toggle() {
+        //    const panel = document.getElementById("accessibilityPanel");
+        //    const tab = document.getElementById("accessibilityTab");
 
-            if (!panel || !tab) return;
+        //    if (!panel || !tab) return;
 
-            const isOpen = !panel.classList.contains("hide");
+        //    const isOpen = !panel.classList.contains("hide");
 
-            if (isOpen) {
+        //    if (isOpen) {
                 // Tutup panel
-                panel.classList.add("hide");
-                tab.style.display = "flex";  // tampilkan icon
-            } else {
+        //        panel.classList.add("hide");
+        //        tab.style.display = "flex";  // tampilkan icon
+        //    } else {
                 // Buka panel
-                panel.classList.remove("hide");
-                tab.style.display = "none";  // sembunyikan icon
-            }
-        },
+        //        panel.classList.remove("hide");
+        //        tab.style.display = "none";  // sembunyikan icon
+        //    }
+        //},
         // =========================
         // akhir perubahan
         // =========================
@@ -145,56 +145,56 @@
         //    tab.classList.toggle("hide");
         //},
 
-        fontIncrease() {
-            fontSize += 2;
-            document.body.style.fontSize = fontSize + "px";
-        },
+        //fontIncrease() {
+        //    fontSize += 2;
+        //    document.body.style.fontSize = fontSize + "px";
+        //},
 
-        fontDecrease() {
-            fontSize -= 2;
-            document.body.style.fontSize = fontSize + "px";
-        },
+        //fontDecrease() {
+        //    fontSize -= 2;
+        //    document.body.style.fontSize = fontSize + "px";
+        //},
 
-        contrast() {
-            document.body.classList.toggle("high-contrast");
-        },
-    };
+        //contrast() {
+        //    document.body.classList.toggle("high-contrast");
+        //},
+    //};
 
-    window.APR_PANEL = PANEL;
+    //window.APR_PANEL = PANEL;
 
     // =========================
     // awal perubahan
     // =========================
     //document.addEventListener("apr-ready", function () {
 
-        document.addEventListener("click", function (e) {
+        //document.addEventListener("click", function (e) {
 
-            const panel = document.getElementById("accessibilityPanel");
-            const tab = document.getElementById("accessibilityTab");
+          //  const panel = document.getElementById("accessibilityPanel");
+          //  const tab = document.getElementById("accessibilityTab");
 
-            if (!panel || !tab) return;
+          //  if (!panel || !tab) return;
 
-            const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
-            if (toggleBtn) {
-                PANEL.toggle();
-                return;
-            }
+            //const toggleBtn = e.target.closest("#accessibilityTab, [data-apr-panel-toggle]");
+            //if (toggleBtn) {
+            //    PANEL.toggle();
+            //    return;
+            //}
 
-            if (e.target.closest("[data-apr-font-increase]")) {
-                PANEL.fontIncrease();
-                return;
-            }
+            //if (e.target.closest("[data-apr-font-increase]")) {
+            //    PANEL.fontIncrease();
+            //    return;
+            //}
 
-            if (e.target.closest("[data-apr-font-decrease]")) {
-                PANEL.fontDecrease();
-                return;
-            }
+            //if (e.target.closest("[data-apr-font-decrease]")) {
+            //    PANEL.fontDecrease();
+            //    return;
+            //}
 
-            if (e.target.closest("[data-apr-contrast]")) {
-                PANEL.contrast();
-                return;
-            }
-        });
+            //if (e.target.closest("[data-apr-contrast]")) {
+            //    PANEL.contrast();
+            //    return;
+            //}
+        //});
 
     //});
 })();
